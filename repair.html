@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repair Service</title>
+  <style>
+    /* General Styles */
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    /* Repair Section Styles */
+    .repair-section {
+      position: relative;
+      background: linear-gradient(135deg, #ff7f00, #e94e77);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .repair-section::before {
+      content: '';
+      position: absolute;
+      top: -100px;
+      left: -100px;
+      width: 300px;
+      height: 300px;
+      background: rgba(255, 255, 255, 0.2);
+      border-radius: 50%;
+      animation: float 6s infinite ease-in-out;
+    }
+
+    .repair-section::after {
+      content: '';
+      position: absolute;
+      bottom: -150px;
+      right: -150px;
+      width: 400px;
+      height: 400px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      animation: float-reverse 8s infinite ease-in-out;
+    }
+
+    .repair-section h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .repair-section p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      animation: fadeIn 2s ease-in-out 0.5s;
+    }
+
+    .repair-details {
+      margin-top: 20px;
+      font-size: 18px;
+      line-height: 1.6;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      animation: fadeIn 2s ease-in-out 0.8s;
+    }
+
+    .repair-section a {
+      display: inline-block;
+      text-decoration: none;
+      background: white;
+      color: #ff7f00;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+      animation: fadeIn 2s ease-in-out 1s;
+    }
+
+    .repair-section a:hover {
+      background: #e94e77;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes float {
+      0%, 100% {
+        transform: translateY(0) translateX(0);
+      }
+      50% {
+        transform: translateY(20px) translateX(20px);
+      }
+    }
+
+    @keyframes float-reverse {
+      0%, 100% {
+        transform: translateY(0) translateX(0);
+      }
+      50% {
+        transform: translateY(-20px) translateX(-20px);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Repair Section -->
+  <section class="repair-section">
+    <h1>Repair Service</h1>
+    <p>Up to <strong>70% off</strong> on all T-Shirts and Accessories!</p>
+    <div class="repair-details">
+      Our professional repair team specializes in giving your favorite clothing items a second life. Whether it’s fixing minor damages, adjusting fits, or enhancing the look of your wardrobe staples, we’ve got you covered! 
+      <br><br>
+      Don’t let a broken zipper, loose seams, or missing buttons stop you from wearing your go-to pieces. Enjoy fast and affordable repair services that ensure your clothes stay as stylish and functional as ever.
+      <br><br>
+      Offer valid for a limited time only. Visit our store or shop online to take advantage of this amazing discount!
+    </div>
+    <a href="C:\Users\HP\Downloads\index.html">Shop Now</a>
+  </section>
+
+   <!-- Footer Section -->
+   <footer style="background-color: #333; color: #fff; padding: 20px 10px; text-align: center;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+      <p style="font-size: 16px; margin: 10px 0;">Stay Connected</p>
+      <div style="margin-bottom: 20px;">
+        <a href="#" style="text-decoration: none; color: #ff7f00; margin: 0 10px; font-size: 20px;">Facebook</a>
+        <a href="#" style="text-decoration: none; color: #ff7f00; margin: 0 10px; font-size: 20px;">Instagram</a>
+        <a href="#" style="text-decoration: none; color: #ff7f00; margin: 0 10px; font-size: 20px;">Twitter</a>
+      </div>
+      <p style="font-size: 14px; margin: 0;">&copy; 2024 Your Clothing Brand "Cara". All Rights Reserved.</p>
+    </div>
+  </footer>
+  
+</body>
+</html>

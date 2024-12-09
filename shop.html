@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Section - Clothing Website</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Poppins', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    /* Order Section Styles */
+    .order-section {
+      background: linear-gradient(135deg, #ff7f00, #e94e77);
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .order-section h1 {
+      font-size: 50px;
+      margin-bottom: 20px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .order-section p {
+      font-size: 20px;
+      margin-bottom: 30px;
+      animation: fadeIn 2s ease-in-out 0.5s;
+    }
+
+    .order-details {
+      max-width: 900px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 30px;
+      animation: fadeIn 2s ease-in-out 1s;
+    }
+
+    .features {
+      display: flex;
+      justify-content: space-around;
+      margin-bottom: 40px;
+      animation: fadeIn 2s ease-in-out 1.5s;
+    }
+
+    .feature {
+      text-align: center;
+      width: 250px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      color: #333;
+      transition: transform 0.3s ease;
+    }
+
+    .feature:hover {
+      transform: scale(1.1);
+    }
+
+    .feature img {
+      width: 150px;
+      height: 100px;
+      margin-bottom: 15px;
+    }
+
+    .order-section a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: white;
+      color: #ff7f00;
+      padding: 15px 30px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 50px;
+      transition: all 0.3s ease-in-out;
+      animation: fadeIn 2s ease-in-out 2s;
+    }
+
+    .order-section a:hover {
+      background-color: #e94e77;
+      color: white;
+      transform: scale(1.1);
+    }
+
+    /* Animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(-20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Order Section -->
+  <section class="order-section">
+    <h1>Order Now and Enjoy Amazing Deals!</h1>
+    <p>Get the latest fashion trends delivered to your doorstep.</p>
+
+    <!-- Order Details Section -->
+    <div class="order-details">
+      <p>Whether you’re looking for trendy T-shirts, stylish jackets, or comfortable shoes, we have it all! Order now and take advantage of our amazing offers. Plus, enjoy hassle-free returns and free shipping on all orders!</p>
+    </div>
+
+    <!-- Features -->
+    <div class="features">
+      <div class="feature">
+        <img src="C:\Users\HP\Downloads\pexels-polina-tankilevitch-4440837.jpg" alt="Free Shipping">
+        <h3>Free Shipping</h3>
+        <p>Enjoy free shipping on all orders above $50. No hidden fees!</p>
+      </div>
+      <div class="feature">
+        <img src="C:\Users\HP\Downloads\pexels-karolina-grabowska-5632379.jpg" alt="Easy Returns">
+        <h3>Easy Returns</h3>
+        <p>Not satisfied with your purchase? Return it hassle-free within 30 days.</p>
+      </div>
+      <div class="feature">
+        <img src="C:\Users\HP\Downloads\pexels-karolina-grabowska-4968633.jpg" alt="Secure Payment">
+        <h3>Secure Payment</h3>
+        <p>Your payment is safe with our secure checkout system.</p>
+      </div>
+    </div>
+
+    <!-- Call to Action Button -->
+    <a href="C:\Users\HP\Downloads\index.html">Shop Now</a>
+  </section>
+</body>
+</html>
